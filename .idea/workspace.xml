@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ddbff09-2018-4599-82df-12a945e967a5" name="Default Changelist" comment="" />
+    <list default="true" id="7ddbff09-2018-4599-82df-12a945e967a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/DeliverOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/IRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/InformLogistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/InformWarehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/PackOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/PlaceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/RuleEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ShipOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/RuleEngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,6 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1abzSgBjkNRy16MoImZ99wrzcT7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +54,79 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RuleEngineTest.test_place_order">
+    <configuration name="RuleEngineTest.test_ios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RuleEngine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.RuleEngineTest" />
+      <option name="METHOD_NAME" value="test_ios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuleEngineTest.test_place_order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RuleEngine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.RuleEngineTest" />
+      <option name="METHOD_NAME" value="test_place_order" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuleEngineTest.test_plce_order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RuleEngine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.RuleEngineTest" />
+      <option name="METHOD_NAME" value="test_plce_order" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RuleEngineTest.test_place_order" />
+        <item itemvalue="JUnit.RuleEngineTest.test_plce_order" />
+        <item itemvalue="JUnit.RuleEngineTest.test_ios" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,5 +140,43 @@
       <updated>1587019082519</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1587043501763">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587043501763" />
+    <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587044018540">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1587044018540" />
+    <state x="0" y="0" width="476" height="900" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587043144978">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="476" height="900" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1587043144978" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587044312341">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587044312341" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587044312339">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587044312339" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587044312338">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587044312338" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587044312340">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587044312340" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1587021352015">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1587021352015" />
+    <state x="499" y="199" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587043730216">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="499" y="199" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1587043730216" />
   </component>
 </project>
